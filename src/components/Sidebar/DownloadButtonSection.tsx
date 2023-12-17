@@ -31,7 +31,16 @@ function DownloadButtonSection() {
         className="btn btn-info hover:opacity-70 outline-none capitalize"
         onClick={htmlToImageConvert}
       >
-        <box-icon name="download" size="20px"></box-icon>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          style={{ fill: " rgba(0, 0, 0, 1)" }}
+        >
+          <path d="m12 16 4-5h-3V4h-2v7H8z"></path>
+          <path d="M20 18H4v-7H2v7c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2v-7h-2v7z"></path>
+        </svg>
         Download Image
       </button>
     </section>

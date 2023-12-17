@@ -21,21 +21,6 @@ export interface AppSettings {
   addImgSize: (imgSize: ImgSize) => void;
 }
 
-export const defaultSettings: AppSettings = {
-  selectedBgColor: "",
-  addSelectedBgColor: (color: string) => {},
-  shadow: 30,
-  addShadow: (shadow: number) => {},
-  roundness: 11,
-  addRoundness: (roundness: number) => {},
-  imgPadding: 35,
-  addImgPadding: (padding: number) => {},
-  yourText: "Made ❤ with IMGbeautify",
-  addYourText: (text: string) => {},
-  imgSize: { width: 0, height: 0 },
-  addImgSize: (imgSize: ImgSize) => {},
-};
-
-const AppContext = createContext<AppSettings>(defaultSettings);
+const AppContext = createContext<AppSettings>({} as AppSettings);
 
 export default AppContext;
