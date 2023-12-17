@@ -13,8 +13,7 @@ IMGbeautify is a simple and easy-to-use image editing tool that allows you to ad
 - Add padding to your image.
 
 ## Demo
-
-<video src="public/demo.mp4" controls title="Project demo"></video>
+https://github.com/VPS07/img-beautify/assets/62896712/a38475fc-ddc6-42de-9b73-cce703bafb36
 
 ## Live
 
