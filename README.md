@@ -13,6 +13,7 @@ IMGbeautify is a simple and easy-to-use image editing tool that allows you to ad
 - Add padding to your image.
 
 ## Demo
+
 https://github.com/VPS07/img-beautify/assets/62896712/a38475fc-ddc6-42de-9b73-cce703bafb36
 
 ## Live
@@ -63,3 +64,10 @@ Follow these steps to set up and run img-beautify locally:
     <img src="https://img.shields.io/badge/-vite-292c33?style=for-the-badge&logo=vite" />
   </a>
 </p>
+
+## To-Do
+
+- [ ] Make responsive for meduim size screen
+- [ ] Add an option to download the output image in more formats
+- [ ] Add option to use custom background image
+- [ ] Add more options for customization
