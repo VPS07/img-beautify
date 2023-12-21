@@ -35,15 +35,15 @@ function App() {
 
   return (
     <AppContext.Provider value={defaultSettings}>
-      <div className="hidden lg:flex flex-row max-h-screen">
+      <div className="hidden md:flex flex-row max-h-screen">
         <SideBar />
         <MainSection />
       </div>
 
-      {/* //TODO: Toggle for sidebar */}
       <div className="text-2xl pt-[35%] px-20 text-center text-red-400 lg:hidden">
-        ⚠ This website is not intented for moblie use. Please use desktop
-        browser for better use.
+        ⚠ This website is best viewed on a desktop computer. Please use a
+        desktop browser for the optimal experience, as it is not fully
+        compatible with mobile devices.
       </div>
     </AppContext.Provider>
   );

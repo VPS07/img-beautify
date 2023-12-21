@@ -83,7 +83,7 @@ function MainSection() {
           </div>
         </div>
       ) : (
-        //  TODO: fixed for potrait images
+        //  TODO: fix for potrait images
         <div className="flex justify-center items-center scale-90 overflow-hidden">
           <div style={imgBackgroundStyle} ref={imgElementRef}>
             <div style={backgroundStyle} className="relative">
