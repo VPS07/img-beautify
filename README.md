@@ -67,7 +67,6 @@ Follow these steps to set up and run img-beautify locally:
 
 ## To-Do
 
-- [ ] Make responsive for meduim size screen
 - [ ] Add an option to download the output image in more formats
 - [ ] Add option to use custom background image
 - [ ] Add more options for customization
