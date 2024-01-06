@@ -8,7 +8,7 @@ function AddTextSection() {
   }
 
   return (
-    <section className="space-y-4 py-4 px-5">
+    <section className="space-y-4 py-5 px-5">
       <p>Add your text</p>
       <input
         type="text"
