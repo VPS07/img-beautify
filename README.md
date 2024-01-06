@@ -6,11 +6,12 @@ IMGbeautify is a simple and easy-to-use image editing tool that allows you to ad
 
 ## Features
 
-- Add text to your images with a variety of fonts, colors, and sizes.
 - Change the background color of your image.
-- Add a shadow to your text.
-- Adjust the roundness of your image corners.
+- Add a shadow to your image.
+- Adjust the border radius of image.
 - Add padding to your image.
+- Option to download image in PNG and JPEG format.
+- Download image without losing quality.
 
 ## Demo
 
@@ -67,6 +68,6 @@ Follow these steps to set up and run img-beautify locally:
 
 ## To-Do
 
-- [ ] Add an option to download the output image in more formats
+- [x] ~~Add an option to download the output image in more formats~~
 - [ ] Add option to use custom background image
 - [ ] Add more options for customization
