@@ -21,7 +21,7 @@ export default function ColorSection() {
   };
 
   return (
-    <section className="space-y-5 py-6">
+    <section className="space-y-5 py-6 px-5">
       <p>Background Color</p>
       <div className="space-y-3">
         <div className="grid grid-cols-5 gap-4">

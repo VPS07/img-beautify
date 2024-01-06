@@ -8,14 +8,14 @@ function AddTextSection() {
   }
 
   return (
-    <section className="space-y-7 pt-7">
+    <section className="space-y-4 py-4 px-5">
       <p>Add your text</p>
       <input
         type="text"
         placeholder="Type here"
         value={yourText}
         onChange={handleTextChange}
-        className="input input-bordered input-info w-full max-w-xs"
+        className="bg-[#12151b] p-3 border-2 border-gray-700 outline-none w-full text-[0.85rem] rounded-md"
       />
     </section>
   );

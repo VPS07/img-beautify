@@ -24,7 +24,7 @@ function RangeSliderSection() {
   }
 
   return (
-    <section className="space-y-5 py-7">
+    <section className="space-y-3 py-5 px-5">
       {/* Shadow property */}
       <div className="space-y-3">
         <p>Shadow</p>
@@ -42,7 +42,7 @@ function RangeSliderSection() {
 
       {/* Roundness property */}
       <div className="space-y-3">
-        <p>Roundness</p>
+        <p>Border Radius</p>
         <div className="tooltip w-full" data-tip={roundness}>
           <input
             type="range"
