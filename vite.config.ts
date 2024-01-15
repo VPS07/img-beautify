@@ -15,7 +15,6 @@ export default defineConfig({
         short_name: "IMGbeautify App",
         start_url: "/",
         background_color: "#ffffff",
-        theme_color: "#000000",
         icons: [
           {
             src: "/logo-192x192.png",
