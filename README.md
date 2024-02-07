@@ -1,6 +1,8 @@
 <div align="center"><img src="./public/long-logo.png" width="350px"/></div>
 
 ---
+![image](https://github.com/VPS07/img-beautify/assets/62896712/103e22ca-ae9f-4021-ba4c-63cb8b8c5258)
+
 
 IMGbeautify is a simple and easy-to-use image editing tool that allows you to add beautiful gradient background to your images. With IMGbeautify, you can create beautiful and eye-catching images for your social media, blog, or website.
 
@@ -12,12 +14,6 @@ IMGbeautify is a simple and easy-to-use image editing tool that allows you to ad
 - Add padding to your image.
 - Option to download image in PNG and JPEG format.
 - Download image without losing quality.
-
-## Demo
-
-https://github.com/VPS07/img-beautify/assets/62896712/a38475fc-ddc6-42de-9b73-cce703bafb36
-
-## Live
 
 ## Installation
 
