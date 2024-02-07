@@ -5,6 +5,7 @@ import AppContext from "../../AppContext";
 
 function MainSection() {
   const [imgPath, setImgPath] = useState<string>("");
+  const [imgFactor, setImgFactor] = useState<number>(1);
   const {
     selectedBgColor,
     shadow,
@@ -33,6 +34,9 @@ function MainSection() {
       image.onload = () => {
         const width = image.width;
         const height = image.height;
+        if (height >= width) setImgFactor(height / width);
+        else setImgFactor(0.3);
+
         addImgSize({
           width,
           height,
@@ -43,12 +47,17 @@ function MainSection() {
   }, []);
   const { getRootProps, getInputProps } = useDropzone({ onDrop });
 
+  const imgContainer = {
+    maxWidth: 100 / (0.7 + imgFactor) + "%",
+  };
+
   const backgroundStyle = {
     padding: imgPadding + "px",
   };
 
   const imgBackgroundStyle = {
     background: selectedBgColor,
+    // "max-width": 100 / imgFactor + "%",
   };
 
   const imgStyle = {
@@ -84,7 +93,10 @@ function MainSection() {
         </div>
       ) : (
         //  TODO: fix for potrait images
-        <div className="flex justify-center items-center scale-90 overflow-hidden">
+        <div
+          className="flex justify-center items-center scale-90 overflow-hidden"
+          style={imgContainer}
+        >
           <div style={imgBackgroundStyle} ref={imgElementRef}>
             <div style={backgroundStyle} className="relative">
               <img src={imgPath} alt="image" style={imgStyle} />
